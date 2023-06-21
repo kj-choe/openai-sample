@@ -23,8 +23,8 @@ OPENAI_SECRET_KEY=YOUR_API_KEY
 
 4. run
 ```bash
-# text: Open AI API for completion
-# chat: Open AI API for chat completion
+# text: Open AI API for completion (model: text-davinci-003) 
+# chat: Open AI API for chat completion (model: gpt-3.5-turbo-0613)
 $ ts-node index.ts {text|chat}
 ```
 
