@@ -16,7 +16,7 @@ cp .env.sample .env
 ```
 
 3. set your API key
-open `.env` and set your API key
+   open `.env` and set your API key
 ```text
 OPENAI_SECRET_KEY=YOUR_API_KEY
 ```
@@ -27,6 +27,12 @@ OPENAI_SECRET_KEY=YOUR_API_KEY
 # chat: Open AI API for chat completion
 $ ts-node index.ts {text|chat}
 ```
+
+## result
+response will be written in `..._response_text.txt`.
+
+you can change the filename for result.
+if you want to change the filename, change `TEXT_RESPONSE_FILE_PATH` or `TEXT_RESPONSE_FILE_PATH` in `.env`.
 
 ## change prompt
 
