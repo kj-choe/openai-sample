@@ -1,0 +1,10 @@
+.idea
+.vscode
+
+# 環境変数ファイル
+.env
+
+*.txt
+*.log
+
+node_modules
