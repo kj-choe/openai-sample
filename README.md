@@ -4,6 +4,8 @@ Open AI API Sample
 ## Overview
 This is a sample of Open AI API.
 
+This sample is for ease of model comparison. You can also check the accuracy of prompt changes.
+
 ## How to use
 1. install nodejs packages
 ```bash
